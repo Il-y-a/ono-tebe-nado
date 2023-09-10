@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
     <link rel="stylesheet" href="./fonts/fonts.css"/>
+    <link rel="stylesheet" href="./styles/global.css">
     <link rel="stylesheet" href="./styles/style.css"/>
     <link rel="stylesheet" href="./images"/>
   </head>
@@ -14,11 +15,9 @@
       <nav class="navigation-list">
           <ul class="menu-header">
             <li>главная</li>
-            <div class="marker">
-              <img src="images/list_marker.svg">
-            </div>
+            <img class="marker" src="images/list_marker.svg">
             <li><a href="#lots">посмотреть лоты</a></li>
-            <img src="images/list_marker.svg">
+            <img class="marker" src="images/list_marker.svg">
             <li><a href="#about">об аукционе</a></li>
           </ul>
       </nav>
@@ -26,8 +25,8 @@
         <img src="images/logo-black.svg" alt="оно тебе надо">
       </div>
       <ul class="contacts">
-        <li class="about-inderline">+9 999 555 5555</li>
-        <li class="about-inderline">info@sobaka.ge</li>
+        <li class="about-inderline" href="+9 999 555 5555">+9 999 555 5555</li>
+        <li class="about-inderline" href="info@sobaka.ge">info@sobaka.ge</li>
         <li>наб. Присенграхт 263-265.</li>
         <li>Амстердам</li>
       </ul>
@@ -36,13 +35,13 @@
       <section class="cover" id="cover">
         <h1 class="cover-title">
           <span class="cover-title-left">
-            о<span class="cover-title-left-allign">но</span>
+            о<span class="cover-title-left-letter">но</span>
           </span>
           <span class="cover-title-center">
-            те<span class="cover-title-center-allign">бе</span>
+            те<span class="cover-title-center-letter">бе</span>
           </span>
           <span class="cover-title-right">
-            н<span class="cover-title-right-allign">адо</span>
+            н<span class="cover-title-right-letter">адо</span>
           </span>
         </h1>
         <p class="cover-text">аукцион вещей, в которые никто не верил
@@ -90,8 +89,8 @@
     </main>
     <footer class="footer">
       <ul class="contacts">
-        <li class="about-inderline">+9 999 555 5555</li>
-        <li class="about-inderline">info@sobaka.ge</li>
+        <li class="about-inderline" href="+9 999 555 5555">+9 999 555 5555</li>
+        <li class="about-inderline" href="info@sobaka.ge">info@sobaka.ge</li>
         <li>наб. Присенграхт 263-265.</li>
         <li>Амстердам</li>
       </ul>
@@ -100,11 +99,11 @@
           <a href="#lots">посмотреть лоты</a>
           <a href="#about">об аукционе</a>
       </nav>
-      <div class="socials">
-          <img src="/images/yt.svg">
-          <img src="/images/vk.svg">
-          <img src="/images/pinterest.svg">
-      </div>
+      <address class="socials">
+          <img src="/images/yt.svg" alt="значок Ютуб">
+          <img src="/images/vk.svg" alt="значок Вконтакте">
+          <img src="/images/pinterest.svg" alt="значок Пинтерес">
+      </address>
     </footer>
   </body>
 </html>

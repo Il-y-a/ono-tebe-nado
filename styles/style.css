@@ -17,7 +17,6 @@ body {
     margin: 92px 50px 0px;
     margin-left: 50px;
     margin-right: 50px;
-    justify-content: space-between;
     align-items: center;
 }
 
@@ -54,6 +53,8 @@ body {
     width: 148px;
     height: 105px;
     flex-shrink: 0;
+    margin-left: 209px;
+    margin-right: 355px;
 }
 
 .contacts {
@@ -91,7 +92,7 @@ body {
 .cover-title {
     color: #FFF;
     font-family: Raleway, sans-serif;
-    margin: 165px 50px 147px;
+    margin: 165px 50px 124px;
     z-index: 1;
 }
 
@@ -107,7 +108,7 @@ body {
     text-transform: uppercase;
 }
 
-.cover-title-left-allign {
+.cover-title-left-letter {
     letter-spacing: 60px;
 }
 
@@ -115,6 +116,8 @@ body {
     display: block;
     width: 1280px;
     height: 100px;
+    margin-top: 20px;
+    margin-left: 30px;
     text-align: center;
     font-size: 100px;
     font-style: normal;
@@ -124,7 +127,7 @@ body {
     text-transform: uppercase;
 }
 
-.cover-title-center-allign {
+.cover-title-center-letter {
     letter-spacing: 60px;
 }
 
@@ -132,6 +135,8 @@ body {
     display: block;
     width: 1340px;
     height: 100px;
+    margin-top: 20px;
+    margin-left: 30px;
     text-align: right;
     font-size: 100px;
     font-style: normal;
@@ -141,7 +146,7 @@ body {
     text-transform: uppercase;
 }
 
-.cover-title-right-allign {
+.cover-title-right-letter {
     letter-spacing: 30px;
 }
 
@@ -169,7 +174,7 @@ body {
     font-weight: 400;
     line-height: 28px;
     text-transform: uppercase;
-    word-spacing: 15px;
+    word-spacing: 17px;
     margin-left: 422px;
     margin-bottom: 62px;
     z-index: 1;
@@ -178,7 +183,7 @@ body {
 .cover-button {
     width: 257px;
     height: 52px;
-    margin-left: 78px;
+    margin-left: 60px;
     margin-right: 50px;
     margin-bottom: 50px;
     flex-shrink: 0;
@@ -211,6 +216,7 @@ body {
     text-transform: uppercase;
     margin-left: 40px;
     margin-top: 0px;
+    margin-bottom: 27px;
 }
 
 .lots-cards {
@@ -330,7 +336,7 @@ body {
     display: flex;
     margin-top: 1px;
     margin-left: 95px;
-    width: 50px;
+    width: 240px;
     height: 240px;
     padding: 0px 95px;
     justify-content: center;
@@ -354,7 +360,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    gap: 80px;
+    gap: 100px;
     flex-shrink: 0;
 }
 
@@ -384,7 +390,6 @@ body {
 .footer {
     display: flex;
     justify-content: space-between;
-    align-items: start;
     width: 1340px;
     height: 97px;
     margin: 0px 50px 90px;
@@ -410,7 +415,7 @@ body {
     width: 240px;
     height: 48px;
     flex-shrink: 0;
-    justify-content: space-between;
+    gap: 48px;
 }
 
 a {
