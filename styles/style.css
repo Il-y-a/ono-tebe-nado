@@ -4,6 +4,7 @@ html {
 }
 
 .header {
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -45,6 +46,8 @@ html {
 
 .logo-header {
   display: flex;
+  position: relative;
+  margin-right: 148px;
   max-width: 148px;
   max-height: 105px;
   flex-shrink: 0;
@@ -148,7 +151,7 @@ html {
   display: flex;
   justify-content: end;
   align-items: center;
-  margin-top: 10px;
+  margin-top: 8px;
   z-index: 1;
 }
 
@@ -162,7 +165,7 @@ html {
   font-weight: 400;
   line-height: 28px;
   text-transform: uppercase;
-  word-spacing: 17px;
+  word-spacing: 18px;
   margin-bottom: 62px;
 }
 
@@ -187,7 +190,6 @@ html {
 
 .lots {
   display: grid;
-  min-width: 1340px;
   margin: 180px 50px 181px;
 }
 
@@ -201,7 +203,7 @@ html {
   text-transform: uppercase;
   margin-left: 40px;
   margin-top: 0px;
-  margin-bottom: 24px;
+  margin-bottom: 27px;
 }
 
 .lots-cards {
@@ -216,9 +218,9 @@ html {
 .card {
   display: flex;
   position: relative;
-  min-width: 430px;
-  min-height: 450px;
-  flex-wrap: wrap;
+  width: 430px;
+  height: 450px;
+  flex-grow: 1;
 }
 
 .card-lot-film {
@@ -244,10 +246,11 @@ html {
 
 /* заголовок на карточках */
 .lots-card-title {
-  position: absolute;
+  position: relative;
+  display: block;
   margin-top: 50px;
   margin-left: 40px;
-  max-width: 350px;
+  margin-right: 40px;
   color: #fff;
   font-family: Raleway, sans-serif;
   font-size: 22px;
@@ -262,9 +265,10 @@ html {
 /* текст на карточках */
 .lots-text {
   position: absolute;
+  display: block;
   margin-left: 40px;
+  margin-right: 40px;
   bottom: 50px;
-  max-width: 350px;
   color: #fff;
   font-family: Raleway, sans-serif;
   font-size: 20px;
@@ -289,14 +293,12 @@ html {
 .about {
   display: flex;
   justify-content: start;
-  min-width: 1340px;
-  margin: 0px 50px 185px;
+  margin: 0px 50px 180px;
   flex-shrink: 0;
 }
 
 .logo-about {
   display: flex;
-  margin-top: 1px;
   margin-left: 95px;
   max-width: 240px;
   max-height: 240px;
@@ -337,7 +339,7 @@ html {
 
 .about-text {
   display: grid;
-  gap: 35px;
+  gap: 25px;
   max-width: 885px;
   color: #000;
   font-family: Raleway, sans-serif;
@@ -369,7 +371,6 @@ html {
 
 .menu {
   display: grid;
-  row-gap: 3px;
   color: #00f;
   text-align: center;
   font-family: Raleway;
