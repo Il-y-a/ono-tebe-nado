@@ -16,7 +16,6 @@ html {
 .navigation-list {
   grid-column-start: 1;
   grid-row-end: 1;
-  
   flex-shrink: 0;
   color: #000;
   font-family: Raleway, sans-serif;
@@ -37,7 +36,7 @@ html {
   list-style: circle;
 }
 
-.header-list_active {
+.list {
   list-style: none;
 }
 
@@ -70,10 +69,9 @@ html {
 .cover {
   display: grid;
   position: relative;
-  min-width: 1440px;
   min-height: 757px;
   flex-shrink: 0;
-  margin-top: 94px;
+  margin-top: 96px;
   background: url(../images/cover.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -93,18 +91,22 @@ html {
   z-index: 1;
 }
 
-.cover-title-left {
-  line-height: 115%;
+.accent-span {
+  display: block;
+  margin-top: 20px;
+  line-height: 100%;
+}
+
+.accent-span:first-child {
+    margin-top: 0px;
 }
 
 .letter-spacing-extended {
   letter-spacing: 60px;
 }
 
-.accent-span {
-  display: block;
-  margin-top: 20px;
-  line-height: 100%;
+.cover-title-left {
+  line-height: 115%;
 }
 
 .cover-title-center {
@@ -113,11 +115,6 @@ html {
 
 .cover-title-right {
   text-align: right;
-  letter-spacing: 60px;
-}
-
-.letter-spacing-extended-right {
-  letter-spacing: 30px;
 }
 
 .no-letter-spacing {
@@ -228,6 +225,10 @@ html {
   font-weight: 400;
   line-height: 120%;
   z-index: 2;
+}
+
+.lots-text-decoration {
+    text-decoration: none;
 }
 
 /* заголовок на карточках */
