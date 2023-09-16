@@ -12,23 +12,25 @@
   <body>
     <header class="header">
       <nav class="navigation-list">
-        <ul class="menu-header">
-          <li class="list-style-none">
-            <a class="decoration-none" href="#cover">главная</a>
+        <ul class="header-list_active menu-header">
+          <li>
+            <a href="#cover" class="menu-decoration">главная</a>
           </li>
           <li class="header-list"><a href="#lots">посмотреть лоты</a></li>
           <li class="header-list"><a href="#about">об аукционе</a></li>
         </ul>
       </nav>
       <div class="logo-header">
+        <a href="#">
         <img src="images/logo-black.svg" alt="оно тебе надо" />
+        </a>
       </div>
       <address class="contacts">
-        <ul class="list-style-none">
-          <li><a href="#">+9 999 555 5555</a></li>
-          <li><a href="#">info@sobaka.ge</a></li>
-          <li><p>наб. Принсенграхт 263-265.</p></li>
-          <li><p>Амстердам</p></li>
+        <ul class="header-list_active">
+          <li><a href="tel:+99995555555">+9 999 555 5555</a></li>
+          <li><a href="mailto:info@sobaka.ge">info@sobaka.ge</a></li>
+          <li><p>наб. Принсенграхт 263-265.</li>
+          <li>Амстердам</p></li>
         </ul>
       </address>
     </header>
@@ -36,14 +38,14 @@
       <section class="cover" id="cover">
         <h1 class="cover-title">
           <span class="cover-title-left">
-            о<span class="cover-title-left-letter">но</span>
+            о<span class="letter-spacing-extended">но</span>
           </span>
-          <span class="cover-title-center">
-            те<span class="cover-title-center-letter">бе</span>
+          <span class="accent-span cover-title-center">
+            те<span class="letter-spacing-extended">бе</span>
           </span>
-          <span class="cover-title-right">
-            н<span class="cover-title-right-letter">ад</span
-            ><span class="cover-title-right-letter-2">о</span>
+          <span class="accent-span cover-title-right">
+            н<span class="letter-spacing-extended-right">ад</span
+            ><span class="no-letter-spacing">о</span>
           </span>
         </h1>
         <div class="cover-footer">
@@ -57,48 +59,54 @@
         <ul class="lots-cards">
           <li class="card card-lot-film">
             <a href="#">
-              <h3 class="lots-card-title">
-                фильм режиссёра, который бросил киношколу
-              </h3>
-              <p class="lots-text">
-                Не просто бросил, а ушел с первой лекции. Какой была бы ваша
-                ставка, если бы вы не знали, что режиссер — Пол Томас Андерсон?
-              </p>
+              <div class="cards-space">
+                <h3 class="lots-card-title">
+                  фильм режиссёра, который бросил киношколу
+                </h3>
+                <p class="lots-text">
+                  Не просто бросил, а ушел с первой лекции. Какой была бы ваша
+                  ставка, если бы вы не знали, что режиссер — Пол Томас Андерсон?
+                </p>
+              </div>
               <div class="overlay"></div>
             </a>
           </li>
           <li class="card card-lot-book">
             <a href="#">
-              <h3 class="lots-card-title">
-                книга, где описан один скучный день из жизни рекламного агента
-              </h3>
-              <p class="lots-text">
-                Объёмом почти в тысячу страниц. Иногда без знаков препинания и с
-                переходами на древнеанглийский. В ней одновременно
-                рассказывается о 16 июня 1904 года и об истории литературы,
-                начиная с античных времён. И это всё накладывается на эпическую
-                поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса
-                Джойса?
-              </p>
+              <div class="cards-space">
+                <h3 class="lots-card-title">
+                  книга, где описан один скучный день из жизни рекламного агента
+                </h3>
+                <p class="lots-text">
+                  Объёмом почти в тысячу страниц. Иногда без знаков препинания и с
+                  переходами на древнеанглийский. В ней одновременно
+                  рассказывается о 16 июня 1904 года и об истории литературы,
+                  начиная с античных времён. И это всё накладывается на эпическую
+                  поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса
+                  Джойса?
+                </p>
+                </div>
               <div class="overlay"></div>
             </a>
           </li>
           <li class="card card-lot-picture">
             <a href="#">
-              <h3 class="lots-card-title">
-                картина, которую повторит даже 5-летний сын маминой подруги
-              </h3>
-              <p class="lots-text">
-                Ну действительно, там линия, тут кружочек, а здесь и вовсе
-                что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
-                котиков… Сколько бы вы на такое поставили, если бы не знали, что
-                это — одна из революционных работ Кандинского?
-              </p>
+              <div class="cards-space">
+                <h3 class="lots-card-title">
+                  картина, которую повторит даже 5-летний сын маминой подруги
+                </h3>
+                <p class="lots-text">
+                  Ну действительно, там линия, тут кружочек, а здесь и вовсе
+                  что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
+                  котиков… Сколько бы вы на такое поставили, если бы не знали, что
+                  это — одна из революционных работ Кандинского?
+                </p>
+              </div>
               <div class="overlay"></div>
             </a>
           </li>
         </ul>
-        <p class="text-lots"><a href="#">посмотреть больше</a></p>
+        <a href="#" class="text-lots">посмотреть больше</a>
       </section>
       <section class="about" id="about">
         <div class="logo-about">
@@ -132,16 +140,16 @@
       </section>
     </main>
     <footer class="footer">
-      <address class="contacs-footer">
-        <ul class="list-style-none">
-          <li><a href="#">+9 999 555 5555</a></li>
-          <li><a href="#">info@sobaka.ge</a></li>
-          <li><p>наб. Принсенграхт 263-265.</p></li>
-          <li><p>Амстердам</p></li>
+      <address class="contacts">
+        <ul class="header-list_active">
+          <li><a href="tel:+99995555555">+9 999 555 5555</a></li>
+          <li><a href="mailto:info@sobaka.ge">info@sobaka.ge</a></li>
+          <li><p>наб. Принсенграхт 263-265.</li>
+          <li>Амстердам</p></li>
         </ul>
       </address>
-      <nav class="menu">
-        <a href="#cover">главная</a>
+      <nav class="menu-footer">
+        <a href="#cover" class="menu-decoration">главная</a>
         <a href="#lots">посмотреть лоты</a>
         <a href="#about">об аукционе</a>
       </nav>
